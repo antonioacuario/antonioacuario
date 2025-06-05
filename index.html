@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ANTONIO ACUARIO - UNIVERSO</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    background: white;
+    font-family: 'Times New Roman', serif;
+  }
+
+  main {
+    margin: 0;
+    padding-top: 110px; /* espacio reservado para header y title-nav-wrapper */
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 1000;
+  }
+
+  header .logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+
+  header nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .title-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    background: transparent;
+    z-index: 1000;
+  }
+
+  .title-nav-wrapper .title {
+    font-size: 16px;
+    text-transform: uppercase;
+    user-select: none;
+  }
+
+  .title-nav-wrapper nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .title-nav-wrapper nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .floating-logo {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+  }
+
+  .floating-logo img {
+    height: 320px;
+    display: block;
+  }
+
+  footer {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    font-size: 12.8px;
+    color: black;
+    padding: 20px 30px;
+    user-select: none;
+  }
+
+  footer a.instagram {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+
+  @media (max-width: 768px) {
+    .title-nav-wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 20px;
+    }
+
+    header {
+      padding: 10px 20px;
+    }
+
+    .gallery img {
+      height: auto;
+      object-fit: contain;
+    }
+
+    .floating-logo img {
+      width: 90vw;
+      height: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+      transform: scale(1.1);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="floating-logo">
+  <img src="img/logo.png" alt="ANTONIO ACUARIO" />
+</div>
+
+<main>
+  <header>
+    <a href="index.html" class="logo">ANTONIO ACUARIO</a>
+    <nav>
+      <a href="coleccion.html">COLECCIÓN</a>
+      <a href="artesanal.html">ARTESANAL</a>
+      <a href="contacto.html">CONTACTO</a>
+    </nav>
+  </header>
+
+  <div class="title-nav-wrapper">
+    <div class="title">UNIVERSO</div>
+    <nav>
+      <a href="universo-en.html">EN</a>
+    </nav>
+  </div>
+
+  <section class="gallery">
+    <img src="img/Look1-antonioacuario.jpg" alt="Look 1 Antonio Acuario">
+    <img src="img/Look2-antonioacuario.jpg" alt="Look 2 Antonio Acuario">
+    <img src="img/Look3-antonioacuario.jpg" alt="Look 3 Antonio Acuario">
+    <img src="img/Look4-antonioacuario.jpg" alt="Look 4 Antonio Acuario">
+    <img src="img/Look5-antonioacuario.jpg" alt="Look 5 Antonio Acuario">
+    <img src="img/Look6-antonioacuario.jpg" alt="Look 6 Antonio Acuario">
+    <img src="img/Look7-antonioacuario.jpg" alt="Look 7 Antonio Acuario">
+    <img src="img/Look8-antonioacuario.jpg" alt="Look 8 Antonio Acuario">
+    <img src="img/Look9-antonioacuario.jpg" alt="Look 9 Antonio Acuario">
+    <img src="img/Look10-antonioacuario.jpg" alt="Look 10 Antonio Acuario">
+    <img src="img/Look11-antonioacuario.jpg" alt="Look 11 Antonio Acuario">
+    <img src="img/Look12-antonioacuario.jpg" alt="Look 12 Antonio Acuario">
+    <img src="img/Look13-antonioacuario.jpg" alt="Look 13 Antonio Acuario">
+    <img src="img/Look14-antonioacuario.jpg" alt="Look 14 Antonio Acuario">
+    <img src="img/Look15-antonioacuario.jpg" alt="Look 15 Antonio Acuario">
+    <img src="img/Look16-antonioacuario.jpg" alt="Look 16 Antonio Acuario">
+    <img src="img/Look17-antonioacuario.jpg" alt="Look 17 Antonio Acuario">
+    <img src="img/Look18-antonioacuario.jpg" alt="Look 18 Antonio Acuario">
+    <img src="img/Look19-antonioacuario.jpg" alt="Look 19 Antonio Acuario">
+    <img src="img/Look20-antonioacuario.jpg" alt="Look 20 Antonio Acuario">
+    <img src="img/Look21-antonioacuario.jpg" alt="Look 21 Antonio Acuario">
+    <img src="img/Look22-antonioacuario.jpg" alt="Look 22 Antonio Acuario">
+    <img src="img/Look23-antonioacuario.jpg" alt="Look 23 Antonio Acuario">
+    <img src="img/Look24-antonioacuario.jpg" alt="Look 24 Antonio Acuario">
+    <img src="img/Look25-antonioacuario.jpg" alt="Look 25 Antonio Acuario">
+    <img src="img/Look26-antonioacuario.jpg" alt="Look 26 Antonio Acuario">
+    <img src="img/Look27-antonioacuario.jpg" alt="Look 27 Antonio Acuario">
+    <img src="img/Look28-antonioacuario.jpg" alt="Look 28 Antonio Acuario">
+    <img src="img/Look29-antonioacuario.jpg" alt="Look 29 Antonio Acuario">
+    <img src="img/Look30-antonioacuario.jpg" alt="Look 30 Antonio Acuario">
+    <img src="img/Look30-antonioacuario.jpg" alt="Look 30 Antonio Acuario">
+    <img src="img/Look31-antonioacuario.jpg" alt="Look 31 Antonio Acuario">
+    <img src="img/Look32-antonioacuario.jpg" alt="Look 32 Antonio Acuario">
+    <img src="img/Look33-antonioacuario.jpg" alt="Look 33 Antonio Acuario">
+    <img src="img/Look34-antonioacuario.jpg" alt="Look 34 Antonio Acuario">
+    <img src="img/Look35-antonioacuario.jpg" alt="Look 35 Antonio Acuario">
+    <img src="img/Look36-antonioacuario.jpg" alt="Look 36 Antonio Acuario">
+    <img src="img/Look37-antonioacuario.jpg" alt="Look 37 Antonio Acuario">
+    <img src="img/Look38-antonioacuario.jpg" alt="Look 38 Antonio Acuario">
+    <img src="img/Look39-antonioacuario.jpg" alt="Look 39 Antonio Acuario">
+    <img src="img/Look40-antonioacuario.jpg" alt="Look 40 Antonio Acuario">
+    <img src="img/Look41-antonioacuario.jpg" alt="Look 41 Antonio Acuario">
+    <img src="img/Look42-antonioacuario.jpg" alt="Look 42 Antonio Acuario">
+    <img src="img/Look43-antonioacuario.jpg" alt="Look 43 Antonio Acuario">
+    <img src="img/Look44-antonioacuario.jpg" alt="Look 44 Antonio Acuario">
+    <img src="img/Look45-antonioacuario.jpg" alt="Look 45 Antonio Acuario">
+    <img src="img/Look46-antonioacuario.jpg" alt="Look 46 Antonio Acuario">
+    <img src="img/Look47-antonioacuario.jpg" alt="Look 47 Antonio Acuario">
+    <img src="img/Look48-antonioacuario.jpg" alt="Look 48 Antonio Acuario">
+    <img src="img/Look49-antonioacuario.jpg" alt="Look 49 Antonio Acuario">
+    <img src="img/Look50-antonioacuario.jpg" alt="Look 50 Antonio Acuario">
+    <img src="img/Look51-antonioacuario.jpg" alt="Look 51 Antonio Acuario">
+    <img src="img/Look52-antonioacuario.jpg" alt="Look 52 Antonio Acuario">
+    <img src="img/Look53-antonioacuario.jpg" alt="Look 53 Antonio Acuario">
+    <img src="img/Look54-antonioacuario.jpg" alt="Look 54 Antonio Acuario">
+    <img src="img/Look55-antonioacuario.jpg" alt="Look 55 Antonio Acuario">
+    <img src="img/Look56-antonioacuario.jpg" alt="Look 56 Antonio Acuario">
+    <img src="img/Look57-antonioacuario.jpg" alt="Look 57 Antonio Acuario">
+    <img src="img/Look58-antonioacuario.jpg" alt="Look 58 Antonio Acuario">
+    <img src="img/Look59-antonioacuario.jpg" alt="Look 59 Antonio Acuario">
+    <img src="img/Look60-antonioacuario.jpg" alt="Look 60 Antonio Acuario">
+    <img src="img/Look61-antonioacuario.jpg" alt="Look 61 Antonio Acuario">
+    <img src="img/Look62-antonioacuario.jpg" alt="Look 62 Antonio Acuario">
+    <img src="img/Look63-antonioacuario.jpg" alt="Look 63 Antonio Acuario">
+    <img src="img/Look64-antonioacuario.jpg" alt="Look 64 Antonio Acuario">
+    <img src="img/Look65-antonioacuario.jpg" alt="Look 65 Antonio Acuario">
+    <img src="img/Look66-antonioacuario.jpg" alt="Look 66 Antonio Acuario">
+    <img src="img/Look67-antonioacuario.jpg" alt="Look 67 Antonio Acuario">
+    <img src="img/Look68-antonioacuario.jpg" alt="Look 68 Antonio Acuario">
+    <img src="img/Look69-antonioacuario.jpg" alt="Look 69 Antonio Acuario">
+    <img src="img/Look70-antonioacuario.jpg" alt="Look 70 Antonio Acuario">
+    <img src="img/Look71-antonioacuario.jpg" alt="Look 71 Antonio Acuario">
+  </section>
+</main>
+
+<footer>
+  <a href="https://instagram.com/antonioacuario" target="_blank" class="instagram">Instagram</a> | &copy; 2025 ANTONIO ACUARIO. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
